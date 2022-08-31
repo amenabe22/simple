@@ -1,0 +1,661 @@
+Loaded plugins: fastestmirror
+Setting up Update Process
+Loading mirror speeds from cached hostfile
+ * base: mirror.dal10.us.leaseweb.net
+ * epel: epel.mirror.constant.com
+ * extras: repo1.ash.innoscale.net
+ * remi: repo1.ash.innoscale.net
+ * remi-php56: repo1.ash.innoscale.net
+ * remi-safe: repo1.ash.innoscale.net
+ * updates: mirror.cs.vt.edu
+Resolving Dependencies
+--> Running transaction check
+---> Package GConf2.x86_64 0:2.28.0-6.el6 will be updated
+---> Package GConf2.x86_64 0:2.28.0-7.el6 will be an update
+---> Package ORBit2.x86_64 0:2.14.17-5.el6 will be updated
+---> Package ORBit2.x86_64 0:2.14.17-7.el6 will be an update
+---> Package acl.x86_64 0:2.2.49-6.el6 will be updated
+---> Package acl.x86_64 0:2.2.49-7.el6_9.1 will be an update
+---> Package apr.x86_64 0:1.3.9-5.el6_2 will be updated
+---> Package apr.x86_64 0:1.3.9-5.el6_9.1 will be an update
+---> Package audit.x86_64 0:2.4.5-3.el6 will be updated
+---> Package audit.x86_64 0:2.4.5-6.el6 will be an update
+---> Package audit-libs.x86_64 0:2.4.5-3.el6 will be updated
+---> Package audit-libs.x86_64 0:2.4.5-6.el6 will be an update
+---> Package avahi-libs.x86_64 0:0.6.25-15.el6_8.1 will be updated
+---> Package avahi-libs.x86_64 0:0.6.25-17.el6 will be an update
+---> Package binutils.x86_64 0:2.20.51.0.2-5.44.el6 will be updated
+---> Package binutils.x86_64 0:2.20.51.0.2-5.48.el6_10.1 will be an update
+---> Package centos-release.x86_64 0:6-8.el6.centos.12.3 will be updated
+---> Package centos-release.x86_64 0:6-10.el6.centos.12.3 will be an update
+---> Package compat-mysql51.x86_64 0:5.1.54-1.el6.remi will be updated
+---> Package compat-mysql51.x86_64 0:5.1.73-1.el6.remi will be an update
+---> Package composer.noarch 0:1.8.6-1.el6.remi will be updated
+---> Package composer.noarch 0:1.9.0-1.el6.remi will be an update
+---> Package cpio.x86_64 0:2.10-12.el6_5 will be updated
+---> Package cpio.x86_64 0:2.10-13.el6 will be an update
+---> Package cups-libs.x86_64 1:1.4.2-74.el6 will be updated
+---> Package cups-libs.x86_64 1:1.4.2-81.el6_10 will be an update
+---> Package curl.x86_64 0:7.19.7-52.el6 will be updated
+---> Package curl.x86_64 0:7.19.7-53.el6_9 will be an update
+---> Package db4.i686 0:4.7.25-20.el6_7 will be updated
+---> Package db4.x86_64 0:4.7.25-20.el6_7 will be updated
+---> Package db4.i686 0:4.7.25-22.el6 will be an update
+---> Package db4.x86_64 0:4.7.25-22.el6 will be an update
+---> Package db4-utils.x86_64 0:4.7.25-20.el6_7 will be updated
+---> Package db4-utils.x86_64 0:4.7.25-22.el6 will be an update
+---> Package dbus.x86_64 1:1.2.24-8.el6_6 will be updated
+---> Package dbus.x86_64 1:1.2.24-11.el6_10 will be an update
+---> Package dbus-libs.x86_64 1:1.2.24-8.el6_6 will be updated
+---> Package dbus-libs.x86_64 1:1.2.24-11.el6_10 will be an update
+---> Package dhclient.x86_64 12:4.1.1-51.P1.el6.centos will be updated
+---> Package dhclient.x86_64 12:4.1.1-63.P1.el6.centos will be an update
+---> Package dhcp-common.x86_64 12:4.1.1-51.P1.el6.centos will be updated
+---> Package dhcp-common.x86_64 12:4.1.1-63.P1.el6.centos will be an update
+---> Package dracut.noarch 0:004-409.el6_8.2 will be updated
+---> Package dracut.noarch 0:004-411.el6 will be an update
+---> Package dracut-kernel.noarch 0:004-409.el6_8.2 will be updated
+---> Package dracut-kernel.noarch 0:004-411.el6 will be an update
+---> Package efibootmgr.x86_64 0:0.5.4-13.el6 will be updated
+---> Package efibootmgr.x86_64 0:0.5.4-15.el6 will be an update
+---> Package fail2ban.noarch 0:0.9.4-2.el6 will be updated
+---> Package fail2ban.noarch 0:0.9.6-1.el6.1 will be an update
+---> Package gd-last.x86_64 0:2.2.3-1.el6.remi will be updated
+---> Package gd-last.x86_64 0:2.2.5-5.el6.remi will be an update
+---> Package glib2.x86_64 0:2.28.8-5.el6 will be updated
+---> Package glib2.x86_64 0:2.28.8-10.el6 will be an update
+---> Package glibc.i686 0:2.12-1.212.el6 will be updated
+---> Package glibc.x86_64 0:2.12-1.212.el6 will be updated
+---> Package glibc.i686 0:2.12-1.212.el6_10.3 will be an update
+---> Package glibc.x86_64 0:2.12-1.212.el6_10.3 will be an update
+---> Package glibc-common.x86_64 0:2.12-1.212.el6 will be updated
+---> Package glibc-common.x86_64 0:2.12-1.212.el6_10.3 will be an update
+---> Package glibc-devel.x86_64 0:2.12-1.212.el6 will be updated
+---> Package glibc-devel.x86_64 0:2.12-1.212.el6_10.3 will be an update
+---> Package glibc-headers.x86_64 0:2.12-1.212.el6 will be updated
+---> Package glibc-headers.x86_64 0:2.12-1.212.el6_10.3 will be an update
+---> Package gmp.x86_64 0:4.3.1-10.el6 will be updated
+---> Package gmp.x86_64 0:4.3.1-13.el6 will be an update
+---> Package gnupg2.x86_64 0:2.0.14-8.el6 will be updated
+---> Package gnupg2.x86_64 0:2.0.14-9.el6_10 will be an update
+---> Package gnutls.x86_64 0:2.8.5-19.el6_7 will be updated
+---> Package gnutls.x86_64 0:2.12.23-22.el6 will be an update
+---> Package grc.noarch 0:1.9-3.1 will be updated
+---> Package grc.noarch 0:1.11-8.1 will be an update
+---> Package grep.x86_64 0:2.20-5.el6_8 will be updated
+---> Package grep.x86_64 0:2.20-6.el6 will be an update
+---> Package gtk2.x86_64 0:2.24.23-8.el6 will be updated
+---> Package gtk2.x86_64 0:2.24.23-9.el6 will be an update
+---> Package gzip.x86_64 0:1.3.12-22.el6 will be updated
+---> Package gzip.x86_64 0:1.3.12-24.el6 will be an update
+---> Package hwdata.noarch 0:0.233-16.1.el6 will be updated
+---> Package hwdata.noarch 0:0.233-20.1.el6 will be an update
+---> Package initscripts.x86_64 0:9.03.53-1.el6.centos.1 will be updated
+---> Package initscripts.x86_64 0:9.03.61-1.el6.centos will be an update
+---> Package iotop.noarch 0:0.3.2-7.el6 will be updated
+---> Package iotop.noarch 0:0.3.2-9.el6 will be an update
+---> Package iproute.x86_64 0:2.6.32-54.el6 will be updated
+---> Package iproute.x86_64 0:2.6.32-57.el6 will be an update
+---> Package iptables.x86_64 0:1.4.7-16.el6 will be updated
+---> Package iptables.x86_64 0:1.4.7-19.el6 will be an update
+---> Package iptables-ipv6.x86_64 0:1.4.7-16.el6 will be updated
+---> Package iptables-ipv6.x86_64 0:1.4.7-19.el6 will be an update
+---> Package iputils.x86_64 0:20071127-21.el6 will be updated
+---> Package iputils.x86_64 0:20071127-24.el6 will be an update
+---> Package jasper-libs.x86_64 0:1.900.1-16.el6_6.3 will be updated
+---> Package jasper-libs.x86_64 0:1.900.1-22.el6 will be an update
+---> Package kernel.x86_64 0:2.6.32-754.18.2.el6 will be installed
+---> Package kernel-firmware.noarch 0:2.6.32-642.11.1.el6 will be updated
+---> Package kernel-firmware.noarch 0:2.6.32-754.18.2.el6 will be an update
+---> Package kernel-headers.x86_64 0:2.6.32-754.6.3.el6 will be updated
+---> Package kernel-headers.x86_64 0:2.6.32-754.18.2.el6 will be an update
+---> Package libX11.x86_64 0:1.6.3-2.el6 will be updated
+---> Package libX11.x86_64 0:1.6.4-3.el6 will be an update
+---> Package libX11-common.noarch 0:1.6.3-2.el6 will be updated
+---> Package libX11-common.noarch 0:1.6.4-3.el6 will be an update
+---> Package libXfixes.x86_64 0:5.0.1-2.1.el6 will be updated
+---> Package libXfixes.x86_64 0:5.0.3-1.el6 will be an update
+---> Package libXi.x86_64 0:1.7.4-1.el6 will be updated
+---> Package libXi.x86_64 0:1.7.8-1.el6 will be an update
+---> Package libXrandr.x86_64 0:1.4.2-1.el6 will be updated
+---> Package libXrandr.x86_64 0:1.5.1-1.el6 will be an update
+---> Package libXrender.x86_64 0:0.9.8-2.1.el6_8.1 will be updated
+---> Package libXrender.x86_64 0:0.9.10-1.el6 will be an update
+---> Package libacl.x86_64 0:2.2.49-6.el6 will be updated
+---> Package libacl.x86_64 0:2.2.49-7.el6_9.1 will be an update
+---> Package libblkid.x86_64 0:2.17.2-12.24.el6_8.1 will be updated
+---> Package libblkid.x86_64 0:2.17.2-12.28.el6_9.2 will be an update
+---> Package libcurl.x86_64 0:7.19.7-52.el6 will be updated
+---> Package libcurl.x86_64 0:7.19.7-53.el6_9 will be an update
+---> Package libnih.x86_64 0:1.0.1-7.el6 will be updated
+---> Package libnih.x86_64 0:1.0.1-8.el6 will be an update
+---> Package librsync.x86_64 0:1.0.0-1.el6 will be updated
+---> Package librsync.x86_64 0:2.0.2-1.el6 will be an update
+---> Package libssh2.x86_64 0:1.4.2-2.el6_7.1 will be updated
+---> Package libssh2.x86_64 0:1.4.2-3.el6_10.1 will be an update
+---> Package libstdc++.x86_64 0:4.4.7-17.el6 will be updated
+---> Package libstdc++.x86_64 0:4.4.7-23.el6 will be an update
+---> Package libtiff.x86_64 0:3.9.4-18.el6_8 will be updated
+---> Package libtiff.x86_64 0:3.9.4-21.el6_8 will be an update
+---> Package libuuid.x86_64 0:2.17.2-12.24.el6_8.1 will be updated
+---> Package libuuid.x86_64 0:2.17.2-12.28.el6_9.2 will be an update
+---> Package libxcb.x86_64 0:1.11-2.el6 will be updated
+---> Package libxcb.x86_64 0:1.12-4.el6 will be an update
+---> Package logrotate.x86_64 0:3.7.8-26.el6_7 will be updated
+---> Package logrotate.x86_64 0:3.7.8-28.el6 will be an update
+---> Package man.x86_64 0:1.6f-32.el6 will be updated
+---> Package man.x86_64 0:1.6f-39.el6 will be an update
+---> Package module-init-tools.x86_64 0:3.9-25.el6 will be updated
+---> Package module-init-tools.x86_64 0:3.9-26.el6 will be an update
+---> Package mosh.x86_64 0:1.2.6-1.el6 will be updated
+---> Package mosh.x86_64 0:1.3.0-1.el6 will be an update
+--> Processing Dependency: perl(Socket::GetAddrInfo) for package: mosh-1.3.0-1.el6.x86_64
+---> Package mysql.x86_64 0:5.5.50-1.el6.remi will be updated
+---> Package mysql.x86_64 0:5.5.62-1.el6.remi will be an update
+---> Package mysql-libs.x86_64 0:5.5.50-1.el6.remi will be updated
+---> Package mysql-libs.x86_64 0:5.5.62-1.el6.remi will be an update
+---> Package mysql-server.x86_64 0:5.5.50-1.el6.remi will be updated
+---> Package mysql-server.x86_64 0:5.5.62-1.el6.remi will be an update
+---> Package net-tools.x86_64 0:1.60-110.el6_2 will be updated
+---> Package net-tools.x86_64 0:1.60-114.el6 will be an update
+---> Package newrelic-daemon.x86_64 0:6.8.0.177-1 will be updated
+---> Package newrelic-daemon.x86_64 0:9.1.0.246-1 will be an update
+---> Package newrelic-php5.x86_64 0:6.8.0.177-1 will be updated
+---> Package newrelic-php5.x86_64 0:9.1.0.246-1 will be an update
+---> Package newrelic-php5-common.noarch 0:6.8.0.177-1 will be updated
+---> Package newrelic-php5-common.noarch 0:9.1.0.246-1 will be an update
+---> Package newt.x86_64 0:0.52.11-3.el6 will be updated
+---> Package newt.x86_64 0:0.52.11-4.el6 will be an update
+---> Package newt-python.x86_64 0:0.52.11-3.el6 will be updated
+---> Package newt-python.x86_64 0:0.52.11-4.el6 will be an update
+---> Package nspr.x86_64 0:4.11.0-1.el6 will be updated
+---> Package nspr.x86_64 0:4.19.0-1.el6 will be an update
+---> Package nss.x86_64 0:3.21.3-2.el6_8 will be updated
+---> Package nss.x86_64 0:3.36.0-9.el6_10 will be an update
+---> Package nss-sysinit.x86_64 0:3.21.3-2.el6_8 will be updated
+---> Package nss-sysinit.x86_64 0:3.36.0-9.el6_10 will be an update
+---> Package nss-tools.x86_64 0:3.21.3-2.el6_8 will be updated
+---> Package nss-tools.x86_64 0:3.36.0-9.el6_10 will be an update
+---> Package nss-util.x86_64 0:3.21.3-1.el6_8 will be updated
+---> Package nss-util.x86_64 0:3.36.0-1.el6 will be an update
+---> Package ntp.x86_64 0:4.2.6p5-10.el6.centos.1 will be updated
+---> Package ntp.x86_64 0:4.2.6p5-15.el6.centos will be an update
+---> Package ntpdate.x86_64 0:4.2.6p5-10.el6.centos.1 will be updated
+---> Package ntpdate.x86_64 0:4.2.6p5-15.el6.centos will be an update
+---> Package openldap.x86_64 0:2.4.40-12.el6 will be updated
+---> Package openldap.x86_64 0:2.4.40-16.el6 will be an update
+---> Package openssh.x86_64 0:5.3p1-118.1.el6_8 will be updated
+---> Package openssh.x86_64 0:5.3p1-124.el6_10 will be an update
+---> Package openssh-clients.x86_64 0:5.3p1-118.1.el6_8 will be updated
+---> Package openssh-clients.x86_64 0:5.3p1-124.el6_10 will be an update
+---> Package openssh-server.x86_64 0:5.3p1-118.1.el6_8 will be updated
+---> Package openssh-server.x86_64 0:5.3p1-124.el6_10 will be an update
+---> Package openssl.i686 0:1.0.1e-57.el6 will be updated
+---> Package openssl.x86_64 0:1.0.1e-57.el6 will be updated
+---> Package openssl.i686 0:1.0.1e-58.el6_10 will be an update
+---> Package openssl.x86_64 0:1.0.1e-58.el6_10 will be an update
+---> Package openssl-devel.x86_64 0:1.0.1e-57.el6 will be updated
+---> Package openssl-devel.x86_64 0:1.0.1e-58.el6_10 will be an update
+---> Package pam.x86_64 0:1.1.1-22.el6 will be updated
+---> Package pam.x86_64 0:1.1.1-24.el6 will be an update
+---> Package perl.x86_64 4:5.10.1-141.el6_7.1 will be updated
+---> Package perl.x86_64 4:5.10.1-144.el6 will be an update
+---> Package perl-Module-Pluggable.x86_64 1:3.90-141.el6_7.1 will be updated
+---> Package perl-Module-Pluggable.x86_64 1:3.90-144.el6 will be an update
+---> Package perl-Pod-Escapes.x86_64 1:1.04-141.el6_7.1 will be updated
+---> Package perl-Pod-Escapes.x86_64 1:1.04-144.el6 will be an update
+---> Package perl-Pod-Simple.x86_64 1:3.13-141.el6_7.1 will be updated
+---> Package perl-Pod-Simple.x86_64 1:3.13-144.el6 will be an update
+---> Package perl-libs.x86_64 4:5.10.1-141.el6_7.1 will be updated
+---> Package perl-libs.x86_64 4:5.10.1-144.el6 will be an update
+---> Package perl-version.x86_64 3:0.77-141.el6_7.1 will be updated
+---> Package perl-version.x86_64 3:0.77-144.el6 will be an update
+---> Package php.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-bcmath.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-bcmath.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-cli.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-cli.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-common.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-common.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-composer-ca-bundle.noarch 0:1.1.4-1.el6.remi will be updated
+---> Package php-composer-ca-bundle.noarch 0:1.2.4-1.el6.remi will be an update
+---> Package php-composer-spdx-licenses.noarch 0:1.5.1-1.el6.remi will be updated
+---> Package php-composer-spdx-licenses.noarch 0:1.5.2-1.el6.remi will be an update
+---> Package php-gd.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-gd.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-gmp.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-gmp.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-google-recaptcha.noarch 0:1.2.1-1.el6.remi will be updated
+---> Package php-google-recaptcha.noarch 0:1.2.3-1.el6.remi will be an update
+---> Package php-intl.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-intl.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-mbstring.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-mbstring.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-mcrypt.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-mcrypt.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-mysqlnd.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-mysqlnd.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-opcache.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-opcache.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-paragonie-random-compat.noarch 0:2.0.12-1.el6.remi will be updated
+---> Package php-paragonie-random-compat.noarch 0:2.0.18-1.el6.remi will be an update
+---> Package php-pdo.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-pdo.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-pear.noarch 1:1.10.1-4.el6.remi will be updated
+---> Package php-pear.noarch 1:1.10.9-3.el6.remi will be an update
+---> Package php-pecl-jsonc.x86_64 0:1.3.9-1.el6.remi.5.6 will be updated
+---> Package php-pecl-jsonc.x86_64 0:1.3.10-2.el6.remi.5.6 will be an update
+---> Package php-pecl-xdebug.x86_64 0:2.4.0-1.el6.remi.5.6 will be updated
+---> Package php-pecl-xdebug.x86_64 0:2.5.5-1.el6.remi.5.6 will be an update
+---> Package php-pecl-zip.x86_64 0:1.13.2-1.el6.remi.5.6 will be updated
+---> Package php-pecl-zip.x86_64 0:1.15.5-1.el6.remi.5.6 will be an update
+--> Processing Dependency: libzip5(x86-64) >= 1.5.2 for package: php-pecl-zip-1.15.5-1.el6.remi.5.6.x86_64
+--> Processing Dependency: libzip.so.5()(64bit) for package: php-pecl-zip-1.15.5-1.el6.remi.5.6.x86_64
+---> Package php-php-gettext.noarch 0:1.0.11-12.el6.remi will be updated
+---> Package php-php-gettext.noarch 0:1.0.12-1.el6.remi will be an update
+---> Package php-phpseclib.noarch 0:2.0.18-1.el6.remi will be updated
+---> Package php-phpseclib.noarch 0:2.0.22-1.el6.remi will be an update
+---> Package php-phpseclib-crypt-aes.noarch 0:1.0.2-1.el6.remi will be updated
+---> Package php-phpseclib-crypt-aes.noarch 0:1.0.17-1.el6.remi will be an update
+---> Package php-phpseclib-crypt-base.noarch 0:1.0.2-1.el6.remi will be updated
+---> Package php-phpseclib-crypt-base.noarch 0:1.0.17-1.el6.remi will be an update
+---> Package php-phpseclib-crypt-random.noarch 0:1.0.2-1.el6.remi will be updated
+---> Package php-phpseclib-crypt-random.noarch 0:1.0.17-1.el6.remi will be an update
+---> Package php-phpseclib-crypt-rijndael.noarch 0:1.0.2-1.el6.remi will be updated
+---> Package php-phpseclib-crypt-rijndael.noarch 0:1.0.17-1.el6.remi will be an update
+---> Package php-process.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-process.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-recode.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-recode.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-symfony-browser-kit.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-browser-kit.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-class-loader.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-class-loader.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-common.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-common.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-config.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-config.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-console.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-console.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-css-selector.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-css-selector.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-debug.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-debug.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-dependency-injection.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-dependency-injection.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-dom-crawler.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-dom-crawler.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-event-dispatcher.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-event-dispatcher.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-expression-language.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-expression-language.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-filesystem.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-filesystem.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-finder.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-finder.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-http-foundation.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-http-foundation.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-http-kernel.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-http-kernel.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-polyfill.noarch 0:1.11.0-1.el6.remi will be updated
+---> Package php-symfony-polyfill.noarch 0:1.12.0-1.el6.remi will be an update
+---> Package php-symfony-process.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-process.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-var-dumper.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-var-dumper.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony-yaml.noarch 0:2.8.51-1.el6.remi will be updated
+---> Package php-symfony-yaml.noarch 0:2.8.51-2.el6.remi will be an update
+---> Package php-symfony3-common.noarch 0:3.4.28-1.el6.remi will be updated
+---> Package php-symfony3-common.noarch 0:3.4.30-1.el6.remi will be an update
+---> Package php-symfony3-translation.noarch 0:3.4.28-1.el6.remi will be updated
+---> Package php-symfony3-translation.noarch 0:3.4.30-1.el6.remi will be an update
+---> Package php-tcpdf.noarch 0:6.2.12-1.el6.remi will be updated
+---> Package php-tcpdf.noarch 0:6.2.26-4.el6.remi will be an update
+---> Package php-tcpdf-dejavu-sans-fonts.noarch 0:6.2.12-1.el6.remi will be updated
+---> Package php-tcpdf-dejavu-sans-fonts.noarch 0:6.2.26-4.el6.remi will be an update
+---> Package php-tidy.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-tidy.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package php-twig.x86_64 0:1.42.1-1.el6.remi.5.6 will be updated
+---> Package php-twig.noarch 0:1.42.3-1.el6.remi will be an update
+---> Package php-xml.x86_64 0:5.6.40-9.el6.remi will be updated
+---> Package php-xml.x86_64 0:5.6.40-13.el6.remi will be an update
+---> Package phpMyAdmin.noarch 0:4.9.0.1-1.el6.remi will be updated
+---> Package phpMyAdmin.noarch 0:4.9.0.1-2.el6.remi will be an update
+--> Processing Dependency: php-bacon-qr-code >= 1.0 for package: phpMyAdmin-4.9.0.1-2.el6.remi.noarch
+--> Processing Dependency: php-pragmarx-google2fa >= 3.0.1 for package: phpMyAdmin-4.9.0.1-2.el6.remi.noarch
+--> Processing Dependency: php-samyoul-u2f-php-server >= 1.1 for package: phpMyAdmin-4.9.0.1-2.el6.remi.noarch
+---> Package pigz.x86_64 0:2.3.3-1.el6 will be updated
+---> Package pigz.x86_64 0:2.3.4-1.el6 will be an update
+---> Package plymouth.x86_64 0:0.8.3-27.el6.centos.1 will be updated
+---> Package plymouth.x86_64 0:0.8.3-29.el6.centos will be an update
+---> Package plymouth-core-libs.x86_64 0:0.8.3-27.el6.centos.1 will be updated
+---> Package plymouth-core-libs.x86_64 0:0.8.3-29.el6.centos will be an update
+---> Package plymouth-scripts.x86_64 0:0.8.3-27.el6.centos.1 will be updated
+---> Package plymouth-scripts.x86_64 0:0.8.3-29.el6.centos will be an update
+---> Package polkit.x86_64 0:0.96-11.el6 will be updated
+---> Package polkit.x86_64 0:0.96-11.el6_10.1 will be an update
+---> Package postfix.x86_64 2:2.6.6-6.el6_7.1 will be updated
+---> Package postfix.x86_64 2:2.6.6-8.el6 will be an update
+---> Package postgresql-libs.x86_64 0:8.4.20-6.el6 will be updated
+---> Package postgresql-libs.x86_64 0:8.4.20-8.el6_9 will be an update
+---> Package procps.x86_64 0:3.2.8-36.el6 will be updated
+---> Package procps.x86_64 0:3.2.8-45.el6_9.3 will be an update
+---> Package psmisc.x86_64 0:22.6-19.el6_5 will be updated
+---> Package psmisc.x86_64 0:22.6-24.el6 will be an update
+---> Package python.x86_64 0:2.6.6-66.el6_8 will be updated
+---> Package python.x86_64 0:2.6.6-68.el6_10 will be an update
+---> Package python-backports-ssl_match_hostname.noarch 0:3.4.0.2-4.el6.centos will be updated
+---> Package python-backports-ssl_match_hostname.noarch 0:3.4.0.2-5.el6 will be an update
+---> Package python-boto.noarch 1:2.34.0-6.el6 will be obsoleting
+--> Processing Dependency: m2crypto for package: 1:python-boto-2.34.0-6.el6.noarch
+---> Package python-libs.i686 0:2.6.6-66.el6_8 will be updated
+---> Package python-libs.x86_64 0:2.6.6-66.el6_8 will be updated
+---> Package python-libs.i686 0:2.6.6-68.el6_10 will be an update
+---> Package python-libs.x86_64 0:2.6.6-68.el6_10 will be an update
+---> Package python-paramiko.noarch 0:1.7.5-2.1.el6 will be updated
+---> Package python-paramiko.noarch 0:1.7.5-5.el6_10 will be an update
+---> Package python-requests.noarch 0:2.6.0-3.el6 will be updated
+---> Package python-requests.noarch 0:2.6.0-4.el6 will be an update
+---> Package python-rpm-macros.noarch 0:3-13.el6 will be updated
+---> Package python-rpm-macros.noarch 0:3-14.el6 will be an update
+---> Package python-setuptools.noarch 0:0.6.10-3.el6 will be updated
+---> Package python-setuptools.noarch 0:0.6.10-4.el6_9 will be an update
+---> Package python-srpm-macros.noarch 0:3-13.el6 will be updated
+---> Package python-srpm-macros.noarch 0:3-14.el6 will be an update
+---> Package python-urllib3.noarch 0:1.10.2-1.el6 will be updated
+---> Package python-urllib3.noarch 0:1.10.2-3.el6 will be an update
+---> Package python2-boto.noarch 0:2.43.0-1.el6 will be obsoleted
+---> Package python3-rpm-macros.noarch 0:3-13.el6 will be updated
+---> Package python3-rpm-macros.noarch 0:3-14.el6 will be an update
+---> Package python34.x86_64 0:3.4.8-1.el6 will be updated
+---> Package python34.x86_64 0:3.4.10-1.el6 will be an update
+---> Package python34-devel.x86_64 0:3.4.8-1.el6 will be updated
+---> Package python34-devel.x86_64 0:3.4.10-1.el6 will be an update
+---> Package python34-libs.x86_64 0:3.4.8-1.el6 will be updated
+---> Package python34-libs.x86_64 0:3.4.10-1.el6 will be an update
+---> Package python34-tkinter.x86_64 0:3.4.8-1.el6 will be updated
+---> Package python34-tkinter.x86_64 0:3.4.10-1.el6 will be an update
+---> Package python34-tools.x86_64 0:3.4.8-1.el6 will be updated
+---> Package python34-tools.x86_64 0:3.4.10-1.el6 will be an update
+---> Package remi-release.noarch 0:6.8-1.el6.remi will be updated
+---> Package remi-release.noarch 0:6.10-1.el6.remi will be an update
+---> Package rpm.x86_64 0:4.8.0-55.el6 will be updated
+---> Package rpm.x86_64 0:4.8.0-59.el6 will be an update
+---> Package rpm-libs.x86_64 0:4.8.0-55.el6 will be updated
+---> Package rpm-libs.x86_64 0:4.8.0-59.el6 will be an update
+---> Package rpm-python.x86_64 0:4.8.0-55.el6 will be updated
+---> Package rpm-python.x86_64 0:4.8.0-59.el6 will be an update
+---> Package rsyslog.x86_64 0:5.8.10-10.el6_6 will be updated
+---> Package rsyslog.x86_64 0:5.8.10-12.el6 will be an update
+---> Package setup.noarch 0:2.8.14-20.el6_4.1 will be updated
+---> Package setup.noarch 0:2.8.14-23.el6 will be an update
+---> Package sphinx.x86_64 0:2.0.8-1.el6 will be updated
+---> Package sphinx.x86_64 0:2.0.8-1.el6.remi will be an update
+---> Package sudo.x86_64 0:1.8.6p3-25.el6_8 will be updated
+---> Package sudo.x86_64 0:1.8.6p3-29.el6_9 will be an update
+---> Package tzdata.noarch 0:2016j-1.el6 will be updated
+---> Package tzdata.noarch 0:2019b-2.el6 will be an update
+---> Package unzip.x86_64 0:6.0-4.el6 will be updated
+---> Package unzip.x86_64 0:6.0-5.el6 will be an update
+---> Package upstart.x86_64 0:0.6.5-16.el6 will be updated
+---> Package upstart.x86_64 0:0.6.5-17.el6 will be an update
+---> Package util-linux-ng.x86_64 0:2.17.2-12.24.el6_8.1 will be updated
+---> Package util-linux-ng.x86_64 0:2.17.2-12.28.el6_9.2 will be an update
+---> Package vim-common.x86_64 2:7.4.629-5.el6 will be updated
+---> Package vim-common.x86_64 2:7.4.629-5.el6_10.2 will be an update
+---> Package vim-enhanced.x86_64 2:7.4.629-5.el6 will be updated
+---> Package vim-enhanced.x86_64 2:7.4.629-5.el6_10.2 will be an update
+---> Package vim-filesystem.x86_64 2:7.4.629-5.el6 will be updated
+---> Package vim-filesystem.x86_64 2:7.4.629-5.el6_10.2 will be an update
+---> Package vim-minimal.x86_64 2:7.4.629-5.el6 will be updated
+---> Package vim-minimal.x86_64 2:7.4.629-5.el6_10.2 will be an update
+---> Package yum-plugin-fastestmirror.noarch 0:1.1.30-37.el6 will be updated
+---> Package yum-plugin-fastestmirror.noarch 0:1.1.30-42.el6_10 will be an update
+---> Package yum-utils.noarch 0:1.1.30-40.el6 will be updated
+---> Package yum-utils.noarch 0:1.1.30-42.el6_10 will be an update
+---> Package zsh.x86_64 0:4.3.11-4.el6.centos.2 will be updated
+---> Package zsh.x86_64 0:4.3.11-9.el6_10 will be an update
+--> Running transaction check
+---> Package libzip5.x86_64 0:1.5.2-1.el6.remi will be installed
+---> Package m2crypto.x86_64 0:0.20.2-9.el6 will be installed
+---> Package perl-Socket-GetAddrInfo.x86_64 0:0.12-1.el6 will be installed
+---> Package php-bacon-qr-code.noarch 0:1.0.3-1.el6.remi will be installed
+---> Package php-pragmarx-google2fa.noarch 0:3.0.3-1.el6.remi will be installed
+--> Processing Dependency: php-paragonie-constant-time-encoding for package: php-pragmarx-google2fa-3.0.3-1.el6.remi.noarch
+---> Package php-samyoul-u2f-php-server.noarch 0:1.1.4-1.el6.remi will be installed
+--> Running transaction check
+---> Package php-paragonie-constant-time-encoding.noarch 0:1.0.3-1.el6.remi will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                      Arch   Version                   Repository  Size
+================================================================================
+Installing:
+ kernel                       x86_64 2.6.32-754.18.2.el6       updates     32 M
+ python-boto                  noarch 1:2.34.0-6.el6            base       1.7 M
+     replacing  python2-boto.noarch 2.43.0-1.el6
+Updating:
+ GConf2                       x86_64 2.28.0-7.el6              base       963 k
+ ORBit2                       x86_64 2.14.17-7.el6             base       172 k
+ acl                          x86_64 2.2.49-7.el6_9.1          base        76 k
+ apr                          x86_64 1.3.9-5.el6_9.1           base       124 k
+ audit                        x86_64 2.4.5-6.el6               base       204 k
+ audit-libs                   x86_64 2.4.5-6.el6               base        74 k
+ avahi-libs                   x86_64 0.6.25-17.el6             base        55 k
+ binutils                     x86_64 2.20.51.0.2-5.48.el6_10.1 updates    2.8 M
+ centos-release               x86_64 6-10.el6.centos.12.3      base        22 k
+ compat-mysql51               x86_64 5.1.73-1.el6.remi         remi       1.4 M
+ composer                     noarch 1.9.0-1.el6.remi          remi       406 k
+ cpio                         x86_64 2.10-13.el6               base       192 k
+ cups-libs                    x86_64 1:1.4.2-81.el6_10         updates    323 k
+ curl                         x86_64 7.19.7-53.el6_9           base       197 k
+ db4                          i686   4.7.25-22.el6             base       581 k
+ db4                          x86_64 4.7.25-22.el6             base       564 k
+ db4-utils                    x86_64 4.7.25-22.el6             base       131 k
+ dbus                         x86_64 1:1.2.24-11.el6_10        updates    211 k
+ dbus-libs                    x86_64 1:1.2.24-11.el6_10        updates    127 k
+ dhclient                     x86_64 12:4.1.1-63.P1.el6.centos updates    323 k
+ dhcp-common                  x86_64 12:4.1.1-63.P1.el6.centos updates    145 k
+ dracut                       noarch 004-411.el6               base       127 k
+ dracut-kernel                noarch 004-411.el6               base        28 k
+ efibootmgr                   x86_64 0.5.4-15.el6              base        38 k
+ fail2ban                     noarch 0.9.6-1.el6.1             epel       468 k
+ gd-last                      x86_64 2.2.5-5.el6.remi          remi       129 k
+ glib2                        x86_64 2.28.8-10.el6             base       1.7 M
+ glibc                        i686   2.12-1.212.el6_10.3       updates    4.4 M
+ glibc                        x86_64 2.12-1.212.el6_10.3       updates    3.8 M
+ glibc-common                 x86_64 2.12-1.212.el6_10.3       updates     14 M
+ glibc-devel                  x86_64 2.12-1.212.el6_10.3       updates    991 k
+ glibc-headers                x86_64 2.12-1.212.el6_10.3       updates    620 k
+ gmp                          x86_64 4.3.1-13.el6              base       207 k
+ gnupg2                       x86_64 2.0.14-9.el6_10           updates    1.6 M
+ gnutls                       x86_64 2.12.23-22.el6            base       389 k
+ grc                          noarch 1.11-8.1                  utilities   46 k
+ grep                         x86_64 2.20-6.el6                base       345 k
+ gtk2                         x86_64 2.24.23-9.el6             base       3.2 M
+ gzip                         x86_64 1.3.12-24.el6             base       116 k
+ hwdata                       noarch 0.233-20.1.el6            base       1.4 M
+ initscripts                  x86_64 9.03.61-1.el6.centos      base       949 k
+ iotop                        noarch 0.3.2-9.el6               base        50 k
+ iproute                      x86_64 2.6.32-57.el6             base       386 k
+ iptables                     x86_64 1.4.7-19.el6              base       255 k
+ iptables-ipv6                x86_64 1.4.7-19.el6              base       103 k
+ iputils                      x86_64 20071127-24.el6           base       121 k
+ jasper-libs                  x86_64 1.900.1-22.el6            base       139 k
+ kernel-firmware              noarch 2.6.32-754.18.2.el6       updates     29 M
+ kernel-headers               x86_64 2.6.32-754.18.2.el6       updates    4.6 M
+ libX11                       x86_64 1.6.4-3.el6               base       587 k
+ libX11-common                noarch 1.6.4-3.el6               base       171 k
+ libXfixes                    x86_64 5.0.3-1.el6               base        17 k
+ libXi                        x86_64 1.7.8-1.el6               base        38 k
+ libXrandr                    x86_64 1.5.1-1.el6               base        25 k
+ libXrender                   x86_64 0.9.10-1.el6              base        24 k
+ libacl                       x86_64 2.2.49-7.el6_9.1          base        24 k
+ libblkid                     x86_64 2.17.2-12.28.el6_9.2      base       119 k
+ libcurl                      x86_64 7.19.7-53.el6_9           base       169 k
+ libnih                       x86_64 1.0.1-8.el6               base       138 k
+ librsync                     x86_64 2.0.2-1.el6               epel        52 k
+ libssh2                      x86_64 1.4.2-3.el6_10.1          updates    123 k
+ libstdc++                    x86_64 4.4.7-23.el6              base       296 k
+ libtiff                      x86_64 3.9.4-21.el6_8            base       346 k
+ libuuid                      x86_64 2.17.2-12.28.el6_9.2      base        72 k
+ libxcb                       x86_64 1.12-4.el6                base       180 k
+ logrotate                    x86_64 3.7.8-28.el6              base        59 k
+ man                          x86_64 1.6f-39.el6               base       265 k
+ module-init-tools            x86_64 3.9-26.el6                base       467 k
+ mosh                         x86_64 1.3.0-1.el6               epel       210 k
+ mysql                        x86_64 5.5.62-1.el6.remi         remi       5.7 M
+ mysql-libs                   x86_64 5.5.62-1.el6.remi         remi       782 k
+ mysql-server                 x86_64 5.5.62-1.el6.remi         remi        10 M
+ net-tools                    x86_64 1.60-114.el6              base       269 k
+ newrelic-daemon              x86_64 9.1.0.246-1               newrelic   3.2 M
+ newrelic-php5                x86_64 9.1.0.246-1               newrelic   8.4 M
+ newrelic-php5-common         noarch 9.1.0.246-1               newrelic    31 k
+ newt                         x86_64 0.52.11-4.el6             base        97 k
+ newt-python                  x86_64 0.52.11-4.el6             base        48 k
+ nspr                         x86_64 4.19.0-1.el6              base       114 k
+ nss                          x86_64 3.36.0-9.el6_10           updates    865 k
+ nss-sysinit                  x86_64 3.36.0-9.el6_10           updates     53 k
+ nss-tools                    x86_64 3.36.0-9.el6_10           updates    460 k
+ nss-util                     x86_64 3.36.0-1.el6              base        72 k
+ ntp                          x86_64 4.2.6p5-15.el6.centos     updates    600 k
+ ntpdate                      x86_64 4.2.6p5-15.el6.centos     updates     79 k
+ openldap                     x86_64 2.4.40-16.el6             base       285 k
+ openssh                      x86_64 5.3p1-124.el6_10          updates    278 k
+ openssh-clients              x86_64 5.3p1-124.el6_10          updates    444 k
+ openssh-server               x86_64 5.3p1-124.el6_10          updates    330 k
+ openssl                      i686   1.0.1e-58.el6_10          updates    1.5 M
+ openssl                      x86_64 1.0.1e-58.el6_10          updates    1.5 M
+ openssl-devel                x86_64 1.0.1e-58.el6_10          updates    1.2 M
+ pam                          x86_64 1.1.1-24.el6              base       659 k
+ perl                         x86_64 4:5.10.1-144.el6          base        10 M
+ perl-Module-Pluggable        x86_64 1:3.90-144.el6            base        41 k
+ perl-Pod-Escapes             x86_64 1:1.04-144.el6            base        33 k
+ perl-Pod-Simple              x86_64 1:3.13-144.el6            base       213 k
+ perl-libs                    x86_64 4:5.10.1-144.el6          base       579 k
+ perl-version                 x86_64 3:0.77-144.el6            base        52 k
+ php                          x86_64 5.6.40-13.el6.remi        remi-php56 2.7 M
+ php-bcmath                   x86_64 5.6.40-13.el6.remi        remi-php56  61 k
+ php-cli                      x86_64 5.6.40-13.el6.remi        remi-php56 4.0 M
+ php-common                   x86_64 5.6.40-13.el6.remi        remi-php56 1.1 M
+ php-composer-ca-bundle       noarch 1.2.4-1.el6.remi          remi        12 k
+ php-composer-spdx-licenses   noarch 1.5.2-1.el6.remi          remi        17 k
+ php-gd                       x86_64 5.6.40-13.el6.remi        remi-php56  82 k
+ php-gmp                      x86_64 5.6.40-13.el6.remi        remi-php56  61 k
+ php-google-recaptcha         noarch 1.2.3-1.el6.remi          remi        15 k
+ php-intl                     x86_64 5.6.40-13.el6.remi        remi-php56 214 k
+ php-mbstring                 x86_64 5.6.40-13.el6.remi        remi-php56 973 k
+ php-mcrypt                   x86_64 5.6.40-13.el6.remi        remi-php56  52 k
+ php-mysqlnd                  x86_64 5.6.40-13.el6.remi        remi-php56 280 k
+ php-opcache                  x86_64 5.6.40-13.el6.remi        remi-php56 129 k
+ php-paragonie-random-compat  noarch 2.0.18-1.el6.remi         remi        27 k
+ php-pdo                      x86_64 5.6.40-13.el6.remi        remi-php56 122 k
+ php-pear                     noarch 1:1.10.9-3.el6.remi       remi       372 k
+ php-pecl-jsonc               x86_64 1.3.10-2.el6.remi.5.6     remi-php56  52 k
+ php-pecl-xdebug              x86_64 2.5.5-1.el6.remi.5.6      remi-php56 207 k
+ php-pecl-zip                 x86_64 1.15.5-1.el6.remi.5.6     remi-php56  54 k
+ php-php-gettext              noarch 1.0.12-1.el6.remi         remi        21 k
+ php-phpseclib                noarch 2.0.22-1.el6.remi         remi       219 k
+ php-phpseclib-crypt-aes      noarch 1.0.17-1.el6.remi         remi       8.2 k
+ php-phpseclib-crypt-base     noarch 1.0.17-1.el6.remi         remi        22 k
+ php-phpseclib-crypt-random   noarch 1.0.17-1.el6.remi         remi        11 k
+ php-phpseclib-crypt-rijndael noarch 1.0.17-1.el6.remi         remi        18 k
+ php-process                  x86_64 5.6.40-13.el6.remi        remi-php56  66 k
+ php-recode                   x86_64 5.6.40-13.el6.remi        remi-php56  38 k
+ php-symfony-browser-kit      noarch 2.8.51-2.el6.remi         remi        25 k
+ php-symfony-class-loader     noarch 2.8.51-2.el6.remi         remi        28 k
+ php-symfony-common           noarch 2.8.51-2.el6.remi         remi       151 k
+ php-symfony-config           noarch 2.8.51-2.el6.remi         remi        55 k
+ php-symfony-console          noarch 2.8.51-2.el6.remi         remi        92 k
+ php-symfony-css-selector     noarch 2.8.51-2.el6.remi         remi        39 k
+ php-symfony-debug            noarch 2.8.51-2.el6.remi         remi        39 k
+ php-symfony-dependency-injection
+                              noarch 2.8.51-2.el6.remi         remi        88 k
+ php-symfony-dom-crawler      noarch 2.8.51-2.el6.remi         remi        33 k
+ php-symfony-event-dispatcher noarch 2.8.51-2.el6.remi         remi        26 k
+ php-symfony-expression-language
+                              noarch 2.8.51-2.el6.remi         remi        30 k
+ php-symfony-filesystem       noarch 2.8.51-2.el6.remi         remi        24 k
+ php-symfony-finder           noarch 2.8.51-2.el6.remi         remi        41 k
+ php-symfony-http-foundation  noarch 2.8.51-2.el6.remi         remi        99 k
+ php-symfony-http-kernel      noarch 2.8.51-2.el6.remi         remi       103 k
+ php-symfony-polyfill         noarch 1.12.0-1.el6.remi         remi        44 k
+ php-symfony-process          noarch 2.8.51-2.el6.remi         remi        35 k
+ php-symfony-var-dumper       noarch 2.8.51-2.el6.remi         remi        51 k
+ php-symfony-yaml             noarch 2.8.51-2.el6.remi         remi        31 k
+ php-symfony3-common          noarch 3.4.30-1.el6.remi         remi       136 k
+ php-symfony3-translation     noarch 3.4.30-1.el6.remi         remi        70 k
+ php-tcpdf                    noarch 6.2.26-4.el6.remi         remi       2.8 M
+ php-tcpdf-dejavu-sans-fonts  noarch 6.2.26-4.el6.remi         remi       316 k
+ php-tidy                     x86_64 5.6.40-13.el6.remi        remi-php56  57 k
+ php-twig                     noarch 1.42.3-1.el6.remi         remi       174 k
+ php-xml                      x86_64 5.6.40-13.el6.remi        remi-php56 224 k
+ phpMyAdmin                   noarch 4.9.0.1-2.el6.remi        remi       5.7 M
+ pigz                         x86_64 2.3.4-1.el6               epel        75 k
+ plymouth                     x86_64 0.8.3-29.el6.centos       base        89 k
+ plymouth-core-libs           x86_64 0.8.3-29.el6.centos       base        88 k
+ plymouth-scripts             x86_64 0.8.3-29.el6.centos       base        31 k
+ polkit                       x86_64 0.96-11.el6_10.1          updates    163 k
+ postfix                      x86_64 2:2.6.6-8.el6             base       2.0 M
+ postgresql-libs              x86_64 8.4.20-8.el6_9            base       202 k
+ procps                       x86_64 3.2.8-45.el6_9.3          updates    220 k
+ psmisc                       x86_64 22.6-24.el6               base        82 k
+ python                       x86_64 2.6.6-68.el6_10           updates     76 k
+ python-backports-ssl_match_hostname
+                              noarch 3.4.0.2-5.el6             base        12 k
+ python-libs                  i686   2.6.6-68.el6_10           updates    5.3 M
+ python-libs                  x86_64 2.6.6-68.el6_10           updates    5.3 M
+ python-paramiko              noarch 1.7.5-5.el6_10            updates    729 k
+ python-requests              noarch 2.6.0-4.el6               base        96 k
+ python-rpm-macros            noarch 3-14.el6                  epel       6.6 k
+ python-setuptools            noarch 0.6.10-4.el6_9            base       336 k
+ python-srpm-macros           noarch 3-14.el6                  epel       5.8 k
+ python-urllib3               noarch 1.10.2-3.el6              base       103 k
+ python3-rpm-macros           noarch 3-14.el6                  epel       5.4 k
+ python34                     x86_64 3.4.10-1.el6              epel        51 k
+ python34-devel               x86_64 3.4.10-1.el6              epel       186 k
+ python34-libs                x86_64 3.4.10-1.el6              epel       8.3 M
+ python34-tkinter             x86_64 3.4.10-1.el6              epel       337 k
+ python34-tools               x86_64 3.4.10-1.el6              epel       426 k
+ remi-release                 noarch 6.10-1.el6.remi           remi        15 k
+ rpm                          x86_64 4.8.0-59.el6              base       906 k
+ rpm-libs                     x86_64 4.8.0-59.el6              base       318 k
+ rpm-python                   x86_64 4.8.0-59.el6              base        61 k
+ rsyslog                      x86_64 5.8.10-12.el6             base       650 k
+ setup                        noarch 2.8.14-23.el6             base       151 k
+ sphinx                       x86_64 2.0.8-1.el6.remi          remi       2.9 M
+ sudo                         x86_64 1.8.6p3-29.el6_9          base       711 k
+ tzdata                       noarch 2019b-2.el6               updates    506 k
+ unzip                        x86_64 6.0-5.el6                 base       152 k
+ upstart                      x86_64 0.6.5-17.el6              base       177 k
+ util-linux-ng                x86_64 2.17.2-12.28.el6_9.2      base       1.6 M
+ vim-common                   x86_64 2:7.4.629-5.el6_10.2      updates    6.7 M
+ vim-enhanced                 x86_64 2:7.4.629-5.el6_10.2      updates    1.0 M
+ vim-filesystem               x86_64 2:7.4.629-5.el6_10.2      updates     15 k
+ vim-minimal                  x86_64 2:7.4.629-5.el6_10.2      updates    422 k
+ yum-plugin-fastestmirror     noarch 1.1.30-42.el6_10          updates     33 k
+ yum-utils                    noarch 1.1.30-42.el6_10          updates    114 k
+ zsh                          x86_64 4.3.11-9.el6_10           updates    2.2 M
+Installing for dependencies:
+ libzip5                      x86_64 1.5.2-1.el6.remi          remi        52 k
+ m2crypto                     x86_64 0.20.2-9.el6              base       471 k
+ perl-Socket-GetAddrInfo      x86_64 0.12-1.el6                epel        31 k
+ php-bacon-qr-code            noarch 1.0.3-1.el6.remi          remi        40 k
+ php-paragonie-constant-time-encoding
+                              noarch 1.0.3-1.el6.remi          remi        13 k
+ php-pragmarx-google2fa       noarch 3.0.3-1.el6.remi          remi        15 k
+ php-samyoul-u2f-php-server   noarch 1.1.4-1.el6.remi          remi        15 k
+
+Transaction Summary
+================================================================================
+Install       9 Package(s)
+Upgrade     198 Package(s)
+
+Total size: 228 M
+Total download size: 198 M
+Is this ok [y/N]: Exiting on user Command
+Your transaction was saved, rerun it with:
+ yum load-transaction /tmp/yum_save_tx-2019-09-16-09-00Ky1O6M.yumtx
